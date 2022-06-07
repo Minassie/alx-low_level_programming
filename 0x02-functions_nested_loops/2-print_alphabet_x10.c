@@ -1,5 +1,5 @@
 /**
- * print_alphabet_x10(void) - function that prints 10x the lowercase letters
+ * print_alphabet_x10 - function that prints 10x the lowercase letters
  *
  * Return: Always 0.
  */
