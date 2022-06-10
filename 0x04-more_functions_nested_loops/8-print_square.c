@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints square of # for given size
- * @size - the variable that takes the size value
+ * @size: the variable that takes the size value
  */
 
 void print_square(int size)
