@@ -1,5 +1,5 @@
 /**
- * print_numbers - prints all decimal digit
+ * print_numbers - prints digits
  */
 
 #include "main.h"
