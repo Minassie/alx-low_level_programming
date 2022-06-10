@@ -1,7 +1,5 @@
 /**
  * print_numbers - prints all decimal digit
- *
- * Return: values
  */
 
 #include "main.h"
