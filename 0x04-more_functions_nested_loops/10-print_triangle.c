@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_square - prints trinagle of # for given size
+ * print_triangle - prints trinagle of # for given size
  * @size: the variable that takes the size value
  */
 
-void print_square(int size)
+void print_triangle(int size)
 {
 	int a, b, c;
 
