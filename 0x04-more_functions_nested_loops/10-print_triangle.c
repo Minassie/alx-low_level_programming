@@ -25,12 +25,7 @@ void print_triangle(int size)
 		{
 			_putchar('#');
 		}
-		if (b == 1)
-		{
-			continue;
-		}
 		_putchar('\n');
 	}
 	}
-	_putchar('\n');
 }
