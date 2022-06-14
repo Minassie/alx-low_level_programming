@@ -4,6 +4,9 @@
  * @n: number of elements to print
  */
 
+#include <stdio.h>
+#include "main.h"
+
 void print_array(int *a, int n)
 {
 	int i = 0;
