@@ -9,13 +9,15 @@
  * Return: A pointer to dest.
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+void *_memcpy(void *dest, const void *src, unsigned int n)
 {
 	unsigned int i;
+	unsigned char *destination = dest;
+	const unsigned char *source = src;
 
 	for (i = 0; i <= n; i++)
 	{
-		*(dest + i) = *(src + i);
+		*(destination + i) = *(source + i);
 	}
 	return (dest);
 }
