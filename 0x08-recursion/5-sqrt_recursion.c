@@ -9,7 +9,7 @@
 int sqrt_fun(int x, int y)
 {
 	if (x * x == y)
-		return (y);
+		return (x);
 	if (x * x > y)
 		return (-1);
 	return (sqrt_fun(x + 1, y));
