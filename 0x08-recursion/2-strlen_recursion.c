@@ -4,13 +4,16 @@
  * @s: the given string.
  * Return: the value.
  */
+
 int _strlen_recursion(char *s)
 {
-	static int i = 0;
+	int i = 0;
+
 	if (*s)
 	{
-	_strlen_recursion(s + 1);
 	i++;
+	i += _strlen_recursion(s + 1);
 	}
-	return i;
+	return (i);
 }
+

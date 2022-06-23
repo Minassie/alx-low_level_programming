@@ -14,7 +14,7 @@ int div(int b, int a)
 	if (a == b / 2)
 		return (1);
 
-	return(div(b, a + 1));
+	return (div(b, a + 1));
 }
 
 

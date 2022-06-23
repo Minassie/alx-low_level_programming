@@ -16,9 +16,11 @@ int sqrt_fun(int x, int y)
 }
 
 /**
- * _sqrt_recursion - a function that returns the natural square root of No
+ * _sqrt_recursion - a function that returns the natural square root of
+ *
  * @n: the given number
- * @Return: the square root
+ *
+ * Return: the square root.
  */
 
 int _sqrt_recursion(int n)
