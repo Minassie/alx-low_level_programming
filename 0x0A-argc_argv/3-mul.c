@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - A program that prints all arguments it receives
+ * main - A program that multiplies two numbers
  * @argc: Counts the number of arguments given to the program
  * @argv: An array of pointers tothe arguments
  *
@@ -14,7 +14,10 @@ int main(int argc, char *argv[])
 	int i, mul = 1;
 
 	if (argc <= 1)
+	{
 		printf("Error\n");
+		return (1);
+	}
 	else
 	{
 	for (i = 1; i < argc; i++)
