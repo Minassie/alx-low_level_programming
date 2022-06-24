@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main = bla
+ * main - bla
  *
  * @argc: bb
  * @argv: kk
