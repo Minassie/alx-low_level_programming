@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - A program that prints all arguments it receives
+ * @argc: Counts the number of arguments given to the program
+ * @argv: An array of pointers tothe arguments
+ *
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
+{
+	int i, mul = 1;
+
+	if (argc <= 1)
+		printf("Error\n");
+	else
+	{
+	for (i = 1; i < argc; i++)
+	{
+	mul *= atoi(argv[i]);
+	}
+	printf("%d\n", mul);
+	}
+	return (0);
+}
