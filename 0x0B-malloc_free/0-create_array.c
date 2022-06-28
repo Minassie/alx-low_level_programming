@@ -6,7 +6,7 @@
  * Return: NULL if size = 0 or pointer to the array
  */
 
-char *create_array (unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *s;
 	int i;
@@ -17,7 +17,7 @@ char *create_array (unsigned int size, char c)
 		return (NULL);
 	}
 	i = 0;
-	while (i < size);
+	while (i < size)
 	{
 		s[i] = c;
 		i++;
