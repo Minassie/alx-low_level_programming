@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point function and print all the numbers of
- *	base 16 in lowercase
+ * main - Entry point function and a program that prints all
+ *	possible combinations of single-digit numbers
  *
  * Return: 0 (always success)
  */
