@@ -5,15 +5,19 @@
  * @str: the string to be printed
  *
  */
-
-void print_rev(char *str)
+void print_rev(char *s)
 {
-	int len = 0, i;
+	int i;
 
-	while (str[i++])
-		len++;
-	for (i = len - 1; i >= 0; i--)
-		_putchar(str[i]);
+	i = 0;
 
+	while (s[i] != '\0')
+		i++;
+	i--;
+	while (i >= 0)
+	{
+		_putchar(s[i]);
+		i--;
+	}
 	_putchar('\n');
 }
