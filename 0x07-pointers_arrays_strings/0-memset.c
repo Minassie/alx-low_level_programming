@@ -3,7 +3,7 @@
 /**
  * *_memset - fills memory with a constant byte
  *
- * @s: the memory area
+ * @*s: the memory area
  * @b: the constant byte
  * @n: the number of first bytes to be filed
  *
